@@ -11,13 +11,13 @@ Adafruit provides all the necessary software for it but in CircuitPython, I want
 So this is inspired by the adafruit library and also, I must say, with some help from Gemini AI.  
 Many comments and messages are in French but nothing difficult to understand.  
 
-##Hardware
+## Hardware
 here is a picture showing the wiring (using i2c1 on GPIO2 & 3)   
 The 1.8kΩ pullup resistors are necessary.
 
 ![Wiring Picture](screenshots/20260303_18h07m39s_grim.png)
 
-##Usage
+## Usage
 Copy the 2 *py files on your micropython ready Raspberry pi Pico.  
 The lcd_Adafruit_16x2_RGB_i2c.py can be placed in the lib folder.  
 Run the TestLcd.py in the REPL to test the LCD and the buttons.  
