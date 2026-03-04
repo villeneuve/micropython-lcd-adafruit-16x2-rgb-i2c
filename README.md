@@ -16,6 +16,8 @@ here is a picture showing the wiring (using i2c1 on GPIO2 & 3)
 The 1.8kΩ pullup resistors are necessary.
 
 ![Wiring Picture](screenshots/20260303_18h07m39s_grim.png)
+![Wiring Picture2](screenshots/Screenshot 2026-03-04 15.58.34.png)
+
 
 ## Usage
 Copy the 2 *py files on your micropython ready Raspberry pi Pico.  
