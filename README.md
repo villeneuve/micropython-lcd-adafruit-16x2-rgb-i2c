@@ -15,7 +15,10 @@ Many comments and messages are in French but nothing difficult to understand.
 here is a picture showing the wiring (using i2c1 on GPIO2 & 3)   
 The 1.8kΩ pullup resistors are necessary.
 
-![Wiring Picture](screenshots/20260303_18h07m39s_grim.png)
+![Wiring Picture](screenshots/20260303_18h07m39s_grim.png)   
+
+Wiring diagram    
+
 ![Wiring Picture2](screenshots/Screenshot 2026-03-04 15.58.34.png)
 
 
