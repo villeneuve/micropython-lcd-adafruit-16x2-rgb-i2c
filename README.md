@@ -20,9 +20,28 @@ The 1.8kΩ pullup resistors are necessary.
 ## Usage
 Copy the 2 *py files on your micropython ready Raspberry pi Pico.  
 The lcd_Adafruit_16x2_RGB_i2c.py can be placed in the lib folder.  
-Run the TestLcd.py in the REPL to test the LCD and the buttons.  
 
+First thing to do is to import the necessary librairies   
 
+```python
+import machine, time
+from lcd_Adafruit_16x2_RGB_i2c import MCP23017, Adafruit_RGB_LCD
+```
 
+Then initialize the objects    
 
+```python
+i2c = machine.I2C(1, sda=machine.Pin(2), scl=machine.Pin(3), freq=400000)
+mcp = MCP23017(i2c)
+lcd = Adafruit_RGB_LCD(mcp)
+```
 
+Now we can use the lcd    
+
+```python
+lcd.clear()
+lcd.message('Hello world!')
+lcd.blink_cursor(1)
+```
+
+You can run the TestLcd.py in the REPL to test the LCD and the buttons.  
