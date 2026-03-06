@@ -19,7 +19,7 @@ The 1.8kΩ pullup resistors are necessary.
 
 Wiring diagram    
 
-![Wiring Picture2](screenshots/Screenshot2026-03-04-15.58.34.png)    
+![Wiring Picture2](screenshots/Screenshot2026-03-05-12.47.22.png)    
 
 ## Usage
 Copy the 2 *py files on your micropython ready Raspberry pi Pico.  
